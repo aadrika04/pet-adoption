@@ -1,0 +1,22 @@
+<ion-content class="splash-screen" fullscreen>
+  <div class="splash-container" style="position: relative; width: 100vw; height: 100vh; overflow: hidden;">
+    <!-- Background image -->
+    <img src="assets/images/adopt-pet.jpg" alt="Adopt Pet Image" 
+         style="width: 100vw; height: 100vh; object-fit: cover; position: absolute; top: 0; left: 0; z-index: -1;" />
+
+    <!-- Title and subtitle positioned closer to the button -->
+    <h1 class="title" style="position: relative; z-index: 1; color: yellow; text-align: center; margin-top: 70vh;">
+      Adopt Pet
+    </h1>
+    
+    <p class="subtitle" style="position: relative; z-index: 1; color: yellow; text-align: center; margin-bottom: 10px;">
+      Make a new friend and prepare your home,<br>your buddy!
+    </p>
+
+    <!-- Get Started Button -->
+    <ion-button expand="block" class="get-started-button" routerLink="/home" 
+                style="position: absolute; z-index: 1; bottom: 10%; left: 50%; transform: translateX(-50%);">
+      Get Started
+    </ion-button>
+  </div>
+</ion-content>
